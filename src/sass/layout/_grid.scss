@@ -1,3 +1,17 @@
 /* ********* */
 /* @GRID*/
 /* ********* */
+
+.arriba{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+}
+
+
+.abajo{
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    flex-direction: row-reverse;
+}
