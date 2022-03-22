@@ -423,7 +423,10 @@ a {
 /* ********* */
 /* @HOME */
 /* ********* */
-.arriba__texto {
+.arriba {
+  background-color: #eff6f6;
+}
+.arriba .arriba__texto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,21 +442,11 @@ a {
   padding: 7% 2% 7% 7%;
   max-width: 50%;
 }
-
-.arriba {
-  background-color: #eff6f6;
-}
-
-.texto__cita {
+.arriba .arriba__texto .texto__cita {
   border-left: 2px solid #438fe6;
   color: #438fe6;
 }
-
-.cita__contenido {
-  padding-left: 20px;
-}
-
-.texto__boton {
+.arriba .arriba__texto .texto__boton {
   color: white;
   padding: 15px 12px;
   background-color: #438fe6;
@@ -461,14 +454,17 @@ a {
   width: 180px;
   text-align: center;
 }
+.arriba .arriba__texto .texto__parrafo {
+  color: #6d6d6d;
+  line-height: 23px;
+}
+
+.cita__contenido {
+  padding-left: 20px;
+}
 
 .iphones_arriba {
   padding: 4% 7% 4% 0;
-}
-
-.texto__parrafo {
-  color: #6d6d6d;
-  line-height: 23px;
 }
 
 .lista {

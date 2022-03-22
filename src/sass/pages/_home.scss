@@ -3,46 +3,50 @@
 /* ********* */
 
 // PARTE DE ARRIBA
-.arriba__texto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 55vw;
-    height: 90%;
-    padding: 7% 2% 7% 7%;
-    max-width: 50%;
-}
+
 
 .arriba{
     background-color: $color_fondo_arriba;
-}
+    .arriba__texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 55vw;
+        height: 90%;
+        padding: 7% 2% 7% 7%;
+        max-width: 50%;
 
-.texto__cita{
-    border-left: 2px solid $color_texto_azul;
-    color: $color_texto_azul;
+        .texto__cita{
+            border-left: 2px solid $color_texto_azul;
+            color: $color_texto_azul;
+        }
+
+        .texto__boton{
+        color: white;
+        padding: 15px 12px;
+        background-color: $color_boton;
+        border-radius: 5px;
+        width: 180px;
+        text-align: center;
+        }
+
+        .texto__parrafo{
+        color: $color_texto_gris;
+        line-height: 23px;
+        }
+    }
 }
 
 .cita__contenido{
     padding-left: 20px;
 }
 
-.texto__boton{
-    color: white;
-    padding: 15px 12px;
-    background-color: $color_boton;
-    border-radius: 5px;
-    width: 180px;
-    text-align: center;
-}
 
 .iphones_arriba{
     padding: 4% 7% 4% 0;
 }
 
-.texto__parrafo{
-    color: $color_texto_gris;
-    line-height: 23px;
-}
+
 
 
 // PARTE DE ABAJO
